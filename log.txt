@@ -1,0 +1,1868 @@
+INPUT: 
+PROB_QUIT          0.2
+INIT_TIME         0 
+FIN_TIME         3500 
+ARRIVE_MIN         10 
+ARRIVE_MAX         100 
+CPU_MIN         10 
+CPU_MAX         20 
+DISK1_MIN         10 
+DISK1_MAX         60 
+DISK2_MIN         10 
+DISK2_MAX         60 
+
+At time 0, Job1 arrives.
+At time 13, Job1 finishes at CPU.
+At time 13, Job1 exits.
+At time 81, Job2 arrives.
+At time 93, Job2 finishes at CPU.
+At time 135, Job3 arrives.
+At time 145, Job3 finishes at CPU.
+At time 145, Job3 exits.
+At time 154, Job4 arrives.
+At time 170, Job5 arrives.
+At time 171, Job4 finishes at CPU.
+At time 171, Job4 exits.
+At time 182, Job2 arrives at Disk.
+At time 219, Job2 finished I/O at Disk 1.
+At time 259, Job6 arrives.
+At time 272, Job5 finishes at CPU.
+At time 302, Job2 arrives.
+At time 314, Job6 finishes at CPU.
+At time 326, Job7 arrives.
+At time 336, Job2 finishes at CPU.
+At time 346, Job9 arrives.
+At time 355, Job6 arrives at Disk.
+At time 357, Job5 arrives at Disk.
+At time 366, Job7 finishes at CPU.
+At time 367, Job8 arrives.
+At time 384, Job6 finished I/O at Disk 1.
+At time 385, Job9 finishes at CPU.
+At time 409, Job2 arrives at Disk.
+At time 423, Job10 arrives.
+At time 442, Job8 finishes at CPU.
+At time 446, Job7 arrives at Disk.
+At time 448, Job2 finished I/O at Disk 2.
+At time 452, Job11 arrives.
+At time 461, Job9 arrives at Disk.
+At time 462, Job10 finishes at CPU.
+At time 463, Job12 arrives.
+At time 469, Job6 arrives.
+At time 477, Job11 finishes at CPU.
+At time 487, Job14 arrives.
+At time 489, Job5 finished I/O at Disk 1.
+At time 498, Job12 finishes at CPU.
+At time 498, Job12 exits.
+At time 507, Job13 arrives.
+At time 515, Job8 arrives at Disk.
+At time 517, Job17 arrives.
+At time 527, Job11 arrives at Disk.
+At time 527, Job6 finishes at CPU.
+At time 532, Job10 arrives at Disk.
+At time 534, Job5 arrives.
+At time 545, Job15 arrives.
+At time 548, Job2 arrives.
+At time 551, Job14 finishes at CPU.
+At time 565, Job9 finished I/O at Disk 1.
+At time 567, Job21 arrives.
+At time 573, Job6 arrives at Disk.
+At time 579, Job13 finishes at CPU.
+At time 585, Job16 arrives.
+At time 589, Job18 arrives.
+At time 599, Job8 finished I/O at Disk 1.
+At time 601, Job13 arrives at Disk.
+At time 602, Job23 arrives.
+At time 603, Job17 finishes at CPU.
+At time 603, Job17 exits.
+At time 612, Job11 finished I/O at Disk 1.
+At time 614, Job19 arrives.
+At time 618, Job9 arrives.
+At time 625, Job24 arrives.
+At time 627, Job5 finishes at CPU.
+At time 630, Job20 arrives.
+At time 634, Job14 arrives at Disk.
+At time 634, Job25 arrives.
+At time 643, Job11 arrives.
+At time 650, Job15 finishes at CPU.
+At time 650, Job6 finished I/O at Disk 1.
+At time 654, Job22 arrives.
+At time 658, Job28 arrives.
+At time 664, Job2 finishes at CPU.
+At time 664, Job2 exits.
+At time 665, Job29 arrives.
+At time 666, Job8 arrives.
+At time 669, Job27 arrives.
+At time 672, Job5 arrives at Disk.
+At time 675, Job32 arrives.
+At time 676, Job15 arrives at Disk.
+At time 677, Job31 arrives.
+At time 684, Job6 arrives.
+At time 684, Job21 finishes at CPU.
+At time 696, Job30 arrives.
+At time 699, Job36 arrives.
+At time 703, Job13 finished I/O at Disk 1.
+At time 710, Job33 arrives.
+At time 711, Job26 arrives.
+At time 714, Job16 finishes at CPU.
+At time 714, Job16 exits.
+At time 716, Job38 arrives.
+At time 721, Job37 arrives.
+At time 723, Job42 arrives.
+At time 723, Job43 arrives.
+At time 724, Job41 arrives.
+At time 726, Job21 arrives at Disk.
+At time 734, Job18 finishes at CPU.
+At time 748, Job39 arrives.
+At time 749, Job40 arrives.
+At time 758, Job34 arrives.
+At time 760, Job45 arrives.
+At time 764, Job23 finishes at CPU.
+At time 766, Job35 arrives.
+At time 766, Job50 arrives.
+At time 780, Job48 arrives.
+At time 780, Job52 arrives.
+At time 783, Job13 arrives.
+At time 785, Job19 finishes at CPU.
+At time 787, Job51 arrives.
+At time 799, Job9 finishes at CPU.
+At time 801, Job46 arrives.
+At time 804, Job55 arrives.
+At time 810, Job23 arrives at Disk.
+At time 811, Job24 finishes at CPU.
+At time 811, Job24 exits.
+At time 814, Job44 arrives.
+At time 814, Job18 arrives at Disk.
+At time 820, Job54 arrives.
+At time 820, Job59 arrives.
+At time 822, Job47 arrives.
+At time 829, Job14 finished I/O at Disk 1.
+At time 830, Job56 arrives.
+At time 832, Job61 arrives.
+At time 834, Job49 arrives.
+At time 834, Job20 finishes at CPU.
+At time 838, Job63 arrives.
+At time 845, Job57 arrives.
+At time 851, Job19 arrives at Disk.
+At time 851, Job25 finishes at CPU.
+At time 854, Job65 arrives.
+At time 860, Job9 arrives at Disk.
+At time 863, Job53 arrives.
+At time 865, Job60 arrives.
+At time 868, Job11 finishes at CPU.
+At time 872, Job67 arrives.
+At time 873, Job68 arrives.
+At time 874, Job58 arrives.
+At time 879, Job70 arrives.
+At time 881, Job64 arrives.
+At time 881, Job66 arrives.
+At time 884, Job74 arrives.
+At time 889, Job22 finishes at CPU.
+At time 893, Job62 arrives.
+At time 893, Job75 arrives.
+At time 899, Job5 finished I/O at Disk 1.
+At time 900, Job77 arrives.
+At time 909, Job11 arrives at Disk.
+At time 910, Job72 arrives.
+At time 910, Job28 finishes at CPU.
+At time 911, Job14 arrives.
+At time 911, Job25 arrives at Disk.
+At time 912, Job20 arrives at Disk.
+At time 921, Job78 arrives.
+At time 923, Job29 finishes at CPU.
+At time 925, Job79 arrives.
+At time 933, Job81 arrives.
+At time 934, Job73 arrives.
+At time 935, Job69 arrives.
+At time 938, Job8 finishes at CPU.
+At time 939, Job29 arrives at Disk.
+At time 940, Job83 arrives.
+At time 946, Job80 arrives.
+At time 946, Job82 arrives.
+At time 946, Job84 arrives.
+At time 951, Job5 arrives.
+At time 951, Job15 finished I/O at Disk 1.
+At time 952, Job71 arrives.
+At time 957, Job27 finishes at CPU.
+At time 961, Job85 arrives.
+At time 963, Job92 arrives.
+At time 971, Job15 arrives.
+At time 975, Job97 arrives.
+At time 976, Job76 arrives.
+At time 977, Job32 finishes at CPU.
+At time 978, Job22 arrives at Disk.
+At time 982, Job93 arrives.
+At time 983, Job90 arrives.
+At time 987, Job8 arrives at Disk.
+At time 991, Job28 arrives at Disk.
+At time 993, Job31 finishes at CPU.
+At time 994, Job89 arrives.
+At time 1003, Job91 arrives.
+At time 1004, Job32 arrives at Disk.
+At time 1008, Job31 arrives at Disk.
+At time 1008, Job6 finishes at CPU.
+At time 1011, Job23 finished I/O at Disk 1.
+At time 1015, Job86 arrives.
+At time 1016, Job103 arrives.
+At time 1024, Job100 arrives.
+At time 1026, Job88 arrives.
+At time 1028, Job94 arrives.
+At time 1029, Job87 arrives.
+At time 1034, Job30 finishes at CPU.
+At time 1034, Job30 exits.
+At time 1037, Job27 arrives at Disk.
+At time 1039, Job105 arrives.
+At time 1044, Job98 arrives.
+At time 1047, Job95 arrives.
+At time 1051, Job101 arrives.
+At time 1052, Job36 finishes at CPU.
+At time 1053, Job96 arrives.
+At time 1053, Job106 arrives.
+At time 1056, Job102 arrives.
+At time 1057, Job107 arrives.
+At time 1061, Job23 arrives.
+At time 1062, Job110 arrives.
+At time 1068, Job99 arrives.
+At time 1073, Job33 finishes at CPU.
+At time 1078, Job108 arrives.
+At time 1080, Job109 arrives.
+At time 1080, Job116 arrives.
+At time 1082, Job104 arrives.
+At time 1087, Job6 arrives at Disk.
+At time 1096, Job26 finishes at CPU.
+At time 1103, Job36 arrives at Disk.
+At time 1107, Job113 arrives.
+At time 1107, Job120 arrives.
+At time 1108, Job121 arrives.
+At time 1110, Job117 arrives.
+At time 1111, Job111 arrives.
+At time 1113, Job18 finished I/O at Disk 1.
+At time 1117, Job112 arrives.
+At time 1117, Job127 arrives.
+At time 1121, Job33 arrives at Disk.
+At time 1123, Job26 arrives at Disk.
+At time 1124, Job115 arrives.
+At time 1127, Job38 finishes at CPU.
+At time 1132, Job114 arrives.
+At time 1132, Job122 arrives.
+At time 1142, Job124 arrives.
+At time 1143, Job119 arrives.
+At time 1143, Job37 finishes at CPU.
+At time 1151, Job118 arrives.
+At time 1153, Job129 arrives.
+At time 1158, Job131 arrives.
+At time 1158, Job134 arrives.
+At time 1162, Job42 finishes at CPU.
+At time 1166, Job125 arrives.
+At time 1175, Job18 arrives.
+At time 1176, Job140 arrives.
+At time 1177, Job139 arrives.
+At time 1178, Job128 arrives.
+At time 1178, Job132 arrives.
+At time 1180, Job123 arrives.
+At time 1180, Job130 arrives.
+At time 1180, Job43 finishes at CPU.
+At time 1181, Job9 finished I/O at Disk 1.
+At time 1183, Job126 arrives.
+At time 1185, Job37 arrives at Disk.
+At time 1186, Job133 arrives.
+At time 1189, Job136 arrives.
+At time 1194, Job41 finishes at CPU.
+At time 1197, Job43 arrives at Disk.
+At time 1200, Job42 arrives at Disk.
+At time 1203, Job145 arrives.
+At time 1207, Job137 arrives.
+At time 1209, Job150 arrives.
+At time 1211, Job142 arrives.
+At time 1213, Job38 arrives at Disk.
+At time 1215, Job39 finishes at CPU.
+At time 1222, Job148 arrives.
+At time 1225, Job138 arrives.
+At time 1227, Job135 arrives.
+At time 1227, Job141 arrives.
+At time 1227, Job143 arrives.
+At time 1229, Job149 arrives.
+At time 1231, Job151 arrives.
+At time 1234, Job11 finished I/O at Disk 1.
+At time 1235, Job147 arrives.
+At time 1236, Job40 finishes at CPU.
+At time 1240, Job41 arrives at Disk.
+At time 1246, Job144 arrives.
+At time 1247, Job40 arrives at Disk.
+At time 1249, Job155 arrives.
+At time 1252, Job159 arrives.
+At time 1254, Job39 arrives at Disk.
+At time 1256, Job34 finishes at CPU.
+At time 1258, Job9 arrives.
+At time 1258, Job25 finished I/O at Disk 1.
+At time 1265, Job152 arrives.
+At time 1267, Job146 arrives.
+At time 1275, Job158 arrives.
+At time 1278, Job45 finishes at CPU.
+At time 1278, Job45 exits.
+At time 1279, Job168 arrives.
+At time 1280, Job153 arrives.
+At time 1289, Job172 arrives.
+At time 1290, Job157 arrives.
+At time 1294, Job162 arrives.
+At time 1296, Job35 finishes at CPU.
+At time 1298, Job154 arrives.
+At time 1298, Job165 arrives.
+At time 1298, Job166 arrives.
+At time 1306, Job34 arrives at Disk.
+At time 1308, Job156 arrives.
+At time 1309, Job50 finishes at CPU.
+At time 1314, Job160 arrives.
+At time 1314, Job175 arrives.
+At time 1315, Job161 arrives.
+At time 1317, Job178 arrives.
+At time 1322, Job163 arrives.
+At time 1323, Job173 arrives.
+At time 1325, Job11 arrives.
+At time 1325, Job164 arrives.
+At time 1326, Job169 arrives.
+At time 1330, Job167 arrives.
+At time 1332, Job48 finishes at CPU.
+At time 1332, Job48 exits.
+At time 1333, Job174 arrives.
+At time 1344, Job52 finishes at CPU.
+At time 1346, Job181 arrives.
+At time 1352, Job25 arrives.
+At time 1352, Job170 arrives.
+At time 1353, Job176 arrives.
+At time 1356, Job186 arrives.
+At time 1358, Job13 finishes at CPU.
+At time 1359, Job191 arrives.
+At time 1361, Job171 arrives.
+At time 1365, Job35 arrives at Disk.
+At time 1368, Job185 arrives.
+At time 1369, Job52 arrives at Disk.
+At time 1371, Job51 finishes at CPU.
+At time 1371, Job51 exits.
+At time 1373, Job188 arrives.
+At time 1382, Job192 arrives.
+At time 1383, Job50 arrives at Disk.
+At time 1386, Job13 arrives at Disk.
+At time 1387, Job189 arrives.
+At time 1388, Job46 finishes at CPU.
+At time 1389, Job29 finished I/O at Disk 1.
+At time 1390, Job177 arrives.
+At time 1390, Job179 arrives.
+At time 1393, Job199 arrives.
+At time 1396, Job190 arrives.
+At time 1397, Job182 arrives.
+At time 1399, Job180 arrives.
+At time 1399, Job183 arrives.
+At time 1401, Job55 finishes at CPU.
+At time 1402, Job198 arrives.
+At time 1404, Job195 arrives.
+At time 1407, Job197 arrives.
+At time 1407, Job207 arrives.
+At time 1411, Job193 arrives.
+At time 1413, Job187 arrives.
+At time 1414, Job202 arrives.
+At time 1415, Job29 arrives.
+At time 1417, Job184 arrives.
+At time 1419, Job194 arrives.
+At time 1419, Job44 finishes at CPU.
+At time 1425, Job203 arrives.
+At time 1426, Job206 arrives.
+At time 1430, Job196 arrives.
+At time 1433, Job213 arrives.
+At time 1445, Job54 finishes at CPU.
+At time 1449, Job216 arrives.
+At time 1450, Job205 arrives.
+At time 1451, Job217 arrives.
+At time 1453, Job209 arrives.
+At time 1455, Job222 arrives.
+At time 1458, Job223 arrives.
+At time 1462, Job46 arrives at Disk.
+At time 1462, Job211 arrives.
+At time 1465, Job59 finishes at CPU.
+At time 1467, Job210 arrives.
+At time 1467, Job218 arrives.
+At time 1468, Job226 arrives.
+At time 1471, Job215 arrives.
+At time 1472, Job200 arrives.
+At time 1477, Job212 arrives.
+At time 1478, Job201 arrives.
+At time 1479, Job47 finishes at CPU.
+At time 1483, Job204 arrives.
+At time 1484, Job231 arrives.
+At time 1485, Job224 arrives.
+At time 1487, Job55 arrives at Disk.
+At time 1493, Job220 arrives.
+At time 1494, Job234 arrives.
+At time 1494, Job235 arrives.
+At time 1495, Job230 arrives.
+At time 1495, Job56 finishes at CPU.
+At time 1496, Job221 arrives.
+At time 1497, Job208 arrives.
+At time 1499, Job44 arrives at Disk.
+At time 1503, Job233 arrives.
+At time 1504, Job219 arrives.
+At time 1508, Job61 finishes at CPU.
+At time 1510, Job214 arrives.
+At time 1510, Job59 arrives at Disk.
+At time 1512, Job229 arrives.
+At time 1521, Job239 arrives.
+At time 1522, Job8 finished I/O at Disk 1.
+At time 1523, Job232 arrives.
+At time 1523, Job238 arrives.
+At time 1528, Job236 arrives.
+At time 1528, Job248 arrives.
+At time 1528, Job49 finishes at CPU.
+At time 1532, Job227 arrives.
+At time 1535, Job54 arrives at Disk.
+At time 1535, Job47 arrives at Disk.
+At time 1536, Job242 arrives.
+At time 1538, Job246 arrives.
+At time 1541, Job228 arrives.
+At time 1545, Job225 arrives.
+At time 1545, Job63 finishes at CPU.
+At time 1548, Job254 arrives.
+At time 1550, Job237 arrives.
+At time 1551, Job241 arrives.
+At time 1553, Job61 arrives at Disk.
+At time 1556, Job250 arrives.
+At time 1560, Job240 arrives.
+At time 1560, Job244 arrives.
+At time 1565, Job253 arrives.
+At time 1566, Job57 finishes at CPU.
+At time 1577, Job243 arrives.
+At time 1578, Job249 arrives.
+At time 1578, Job261 arrives.
+At time 1581, Job245 arrives.
+At time 1581, Job63 arrives at Disk.
+At time 1583, Job56 arrives at Disk.
+At time 1583, Job260 arrives.
+At time 1587, Job257 arrives.
+At time 1588, Job269 arrives.
+At time 1591, Job252 arrives.
+At time 1591, Job263 arrives.
+At time 1591, Job65 finishes at CPU.
+At time 1592, Job28 finished I/O at Disk 1.
+At time 1596, Job255 arrives.
+At time 1597, Job247 arrives.
+At time 1599, Job264 arrives.
+At time 1601, Job275 arrives.
+At time 1607, Job251 arrives.
+At time 1609, Job8 arrives.
+At time 1612, Job262 arrives.
+At time 1614, Job256 arrives.
+At time 1614, Job259 arrives.
+At time 1616, Job53 finishes at CPU.
+At time 1616, Job53 exits.
+At time 1626, Job279 arrives.
+At time 1627, Job49 arrives at Disk.
+At time 1627, Job258 arrives.
+At time 1631, Job278 arrives.
+At time 1638, Job60 finishes at CPU.
+At time 1640, Job266 arrives.
+At time 1641, Job31 finished I/O at Disk 1.
+At time 1642, Job283 arrives.
+At time 1643, Job285 arrives.
+At time 1645, Job267 arrives.
+At time 1650, Job276 arrives.
+At time 1655, Job265 arrives.
+At time 1658, Job273 arrives.
+At time 1658, Job67 finishes at CPU.
+At time 1659, Job286 arrives.
+At time 1661, Job31 arrives.
+At time 1663, Job57 arrives at Disk.
+At time 1663, Job28 arrives.
+At time 1666, Job65 arrives at Disk.
+At time 1667, Job280 arrives.
+At time 1667, Job287 arrives.
+At time 1668, Job277 arrives.
+At time 1669, Job295 arrives.
+At time 1670, Job268 arrives.
+At time 1670, Job272 arrives.
+At time 1676, Job271 arrives.
+At time 1678, Job270 arrives.
+At time 1678, Job282 arrives.
+At time 1678, Job68 finishes at CPU.
+At time 1679, Job281 arrives.
+At time 1680, Job274 arrives.
+At time 1680, Job299 arrives.
+At time 1683, Job284 arrives.
+At time 1683, Job67 arrives at Disk.
+At time 1683, Job300 arrives.
+At time 1685, Job288 arrives.
+At time 1688, Job289 arrives.
+At time 1689, Job290 arrives.
+At time 1690, Job58 finishes at CPU.
+At time 1692, Job310 arrives.
+At time 1693, Job312 arrives.
+At time 1695, Job60 arrives at Disk.
+At time 1695, Job298 arrives.
+At time 1696, Job6 finished I/O at Disk 1.
+At time 1703, Job302 arrives.
+At time 1703, Job303 arrives.
+At time 1705, Job307 arrives.
+At time 1707, Job306 arrives.
+At time 1710, Job6 arrives.
+At time 1711, Job301 arrives.
+At time 1711, Job316 arrives.
+At time 1712, Job294 arrives.
+At time 1712, Job70 finishes at CPU.
+At time 1715, Job317 arrives.
+At time 1717, Job308 arrives.
+At time 1719, Job311 arrives.
+At time 1721, Job297 arrives.
+At time 1724, Job309 arrives.
+At time 1727, Job305 arrives.
+At time 1728, Job293 arrives.
+At time 1729, Job291 arrives.
+At time 1730, Job314 arrives.
+At time 1732, Job320 arrives.
+At time 1733, Job321 arrives.
+At time 1733, Job64 finishes at CPU.
+At time 1733, Job64 exits.
+At time 1740, Job292 arrives.
+At time 1743, Job68 arrives at Disk.
+At time 1746, Job296 arrives.
+At time 1747, Job304 arrives.
+At time 1748, Job319 arrives.
+At time 1749, Job331 arrives.
+At time 1752, Job326 arrives.
+At time 1753, Job313 arrives.
+At time 1754, Job338 arrives.
+At time 1755, Job324 arrives.
+At time 1757, Job66 finishes at CPU.
+At time 1758, Job318 arrives.
+At time 1766, Job322 arrives.
+At time 1768, Job330 arrives.
+At time 1769, Job315 arrives.
+At time 1772, Job74 finishes at CPU.
+At time 1772, Job74 exits.
+At time 1774, Job327 arrives.
+At time 1774, Job340 arrives.
+At time 1776, Job323 arrives.
+At time 1777, Job66 arrives at Disk.
+At time 1783, Job337 arrives.
+At time 1787, Job58 arrives at Disk.
+At time 1787, Job62 finishes at CPU.
+At time 1787, Job62 exits.
+At time 1789, Job329 arrives.
+At time 1789, Job349 arrives.
+At time 1790, Job70 arrives at Disk.
+At time 1790, Job351 arrives.
+At time 1791, Job344 arrives.
+At time 1796, Job336 arrives.
+At time 1796, Job350 arrives.
+At time 1797, Job345 arrives.
+At time 1802, Job354 arrives.
+At time 1804, Job328 arrives.
+At time 1805, Job325 arrives.
+At time 1806, Job346 arrives.
+At time 1808, Job36 finished I/O at Disk 1.
+At time 1808, Job355 arrives.
+At time 1808, Job75 finishes at CPU.
+At time 1808, Job75 exits.
+At time 1809, Job342 arrives.
+At time 1811, Job335 arrives.
+At time 1813, Job332 arrives.
+At time 1813, Job360 arrives.
+At time 1815, Job334 arrives.
+At time 1815, Job358 arrives.
+At time 1825, Job333 arrives.
+At time 1825, Job36 arrives.
+At time 1826, Job343 arrives.
+At time 1827, Job339 arrives.
+At time 1827, Job77 finishes at CPU.
+At time 1827, Job77 exits.
+At time 1829, Job341 arrives.
+At time 1829, Job347 arrives.
+At time 1833, Job353 arrives.
+At time 1836, Job361 arrives.
+At time 1839, Job369 arrives.
+At time 1840, Job348 arrives.
+At time 1842, Job72 finishes at CPU.
+At time 1851, Job357 arrives.
+At time 1856, Job352 arrives.
+At time 1857, Job372 arrives.
+At time 1862, Job366 arrives.
+At time 1866, Job378 arrives.
+At time 1867, Job359 arrives.
+At time 1868, Job14 finishes at CPU.
+At time 1868, Job14 exits.
+At time 1874, Job356 arrives.
+At time 1874, Job370 arrives.
+At time 1877, Job367 arrives.
+At time 1878, Job376 arrives.
+At time 1879, Job72 arrives at Disk.
+At time 1882, Job362 arrives.
+At time 1882, Job377 arrives.
+At time 1888, Job364 arrives.
+At time 1888, Job368 arrives.
+At time 1890, Job363 arrives.
+At time 1890, Job365 arrives.
+At time 1894, Job387 arrives.
+At time 1894, Job389 arrives.
+At time 1894, Job78 finishes at CPU.
+At time 1895, Job371 arrives.
+At time 1899, Job374 arrives.
+At time 1905, Job78 arrives at Disk.
+At time 1910, Job380 arrives.
+At time 1912, Job382 arrives.
+At time 1912, Job385 arrives.
+At time 1914, Job26 finished I/O at Disk 1.
+At time 1914, Job396 arrives.
+At time 1914, Job79 finishes at CPU.
+At time 1915, Job386 arrives.
+At time 1916, Job373 arrives.
+At time 1917, Job379 arrives.
+At time 1918, Job375 arrives.
+At time 1918, Job388 arrives.
+At time 1922, Job403 arrives.
+At time 1924, Job404 arrives.
+At time 1925, Job401 arrives.
+At time 1926, Job381 arrives.
+At time 1928, Job395 arrives.
+At time 1933, Job384 arrives.
+At time 1933, Job393 arrives.
+At time 1933, Job79 arrives at Disk.
+At time 1934, Job81 finishes at CPU.
+At time 1935, Job400 arrives.
+At time 1940, Job391 arrives.
+At time 1942, Job383 arrives.
+At time 1947, Job26 arrives.
+At time 1949, Job73 finishes at CPU.
+At time 1950, Job420 arrives.
+At time 1951, Job406 arrives.
+At time 1953, Job392 arrives.
+At time 1953, Job415 arrives.
+At time 1960, Job414 arrives.
+At time 1961, Job407 arrives.
+At time 1962, Job419 arrives.
+At time 1964, Job69 finishes at CPU.
+At time 1965, Job402 arrives.
+At time 1966, Job390 arrives.
+At time 1970, Job417 arrives.
+At time 1970, Job424 arrives.
+At time 1972, Job418 arrives.
+At time 1972, Job421 arrives.
+At time 1975, Job394 arrives.
+At time 1976, Job398 arrives.
+At time 1979, Job399 arrives.
+At time 1982, Job429 arrives.
+At time 1982, Job430 arrives.
+At time 1982, Job83 finishes at CPU.
+At time 1984, Job411 arrives.
+At time 1985, Job408 arrives.
+At time 1989, Job397 arrives.
+At time 1991, Job422 arrives.
+At time 1994, Job80 finishes at CPU.
+At time 1994, Job80 exits.
+At time 1998, Job83 arrives at Disk.
+At time 2000, Job435 arrives.
+At time 2001, Job436 arrives.
+At time 2002, Job440 arrives.
+At time 2003, Job405 arrives.
+At time 2004, Job425 arrives.
+At time 2006, Job416 arrives.
+At time 2007, Job437 arrives.
+At time 2009, Job69 arrives at Disk.
+At time 2011, Job73 arrives at Disk.
+At time 2012, Job37 finished I/O at Disk 1.
+At time 2012, Job82 finishes at CPU.
+At time 2013, Job413 arrives.
+At time 2013, Job433 arrives.
+At time 2015, Job409 arrives.
+At time 2016, Job428 arrives.
+At time 2016, Job431 arrives.
+At time 2018, Job410 arrives.
+At time 2021, Job412 arrives.
+At time 2022, Job423 arrives.
+At time 2023, Job427 arrives.
+At time 2023, Job84 finishes at CPU.
+At time 2025, Job441 arrives.
+At time 2028, Job426 arrives.
+At time 2028, Job432 arrives.
+At time 2034, Job81 arrives at Disk.
+At time 2035, Job458 arrives.
+At time 2043, Job456 arrives.
+At time 2044, Job446 arrives.
+At time 2044, Job462 arrives.
+At time 2045, Job5 finishes at CPU.
+At time 2047, Job444 arrives.
+At time 2047, Job449 arrives.
+At time 2051, Job454 arrives.
+At time 2052, Job434 arrives.
+At time 2054, Job438 arrives.
+At time 2055, Job450 arrives.
+At time 2057, Job453 arrives.
+At time 2057, Job5 arrives at Disk.
+At time 2063, Job71 finishes at CPU.
+At time 2063, Job71 exits.
+At time 2065, Job445 arrives.
+At time 2066, Job451 arrives.
+At time 2067, Job442 arrives.
+At time 2067, Job463 arrives.
+At time 2068, Job37 arrives.
+At time 2069, Job443 arrives.
+At time 2070, Job43 finished I/O at Disk 1.
+At time 2074, Job457 arrives.
+At time 2076, Job439 arrives.
+At time 2076, Job85 finishes at CPU.
+At time 2077, Job465 arrives.
+At time 2078, Job82 arrives at Disk.
+At time 2079, Job474 arrives.
+At time 2084, Job479 arrives.
+At time 2085, Job481 arrives.
+At time 2086, Job476 arrives.
+At time 2089, Job460 arrives.
+At time 2093, Job447 arrives.
+At time 2095, Job92 finishes at CPU.
+At time 2095, Job92 exits.
+At time 2097, Job477 arrives.
+At time 2098, Job448 arrives.
+At time 2098, Job467 arrives.
+At time 2098, Job478 arrives.
+At time 2102, Job452 arrives.
+At time 2104, Job469 arrives.
+At time 2105, Job459 arrives.
+At time 2107, Job461 arrives.
+At time 2109, Job455 arrives.
+At time 2110, Job84 arrives at Disk.
+At time 2110, Job15 finishes at CPU.
+At time 2111, Job472 arrives.
+At time 2112, Job473 arrives.
+At time 2112, Job483 arrives.
+At time 2113, Job471 arrives.
+At time 2114, Job464 arrives.
+At time 2115, Job487 arrives.
+At time 2115, Job489 arrives.
+At time 2118, Job468 arrives.
+At time 2123, Job484 arrives.
+At time 2124, Job470 arrives.
+At time 2124, Job488 arrives.
+At time 2125, Job475 arrives.
+At time 2125, Job43 arrives.
+At time 2125, Job97 finishes at CPU.
+At time 2127, Job501 arrives.
+At time 2128, Job500 arrives.
+At time 2129, Job495 arrives.
+At time 2131, Job490 arrives.
+At time 2137, Job491 arrives.
+At time 2137, Job76 finishes at CPU.
+At time 2137, Job76 exits.
+At time 2142, Job466 arrives.
+At time 2142, Job504 arrives.
+At time 2143, Job497 arrives.
+At time 2143, Job15 arrives at Disk.
+At time 2147, Job516 arrives.
+At time 2150, Job482 arrives.
+At time 2152, Job514 arrives.
+At time 2154, Job93 finishes at CPU.
+At time 2155, Job493 arrives.
+At time 2156, Job38 finished I/O at Disk 1.
+At time 2161, Job485 arrives.
+At time 2161, Job509 arrives.
+At time 2163, Job492 arrives.
+At time 2164, Job486 arrives.
+At time 2166, Job494 arrives.
+At time 2166, Job97 arrives at Disk.
+At time 2167, Job480 arrives.
+At time 2171, Job90 finishes at CPU.
+At time 2171, Job90 exits.
+At time 2173, Job522 arrives.
+At time 2174, Job496 arrives.
+At time 2175, Job85 arrives at Disk.
+At time 2176, Job507 arrives.
+At time 2177, Job508 arrives.
+At time 2177, Job510 arrives.
+At time 2178, Job524 arrives.
+At time 2184, Job499 arrives.
+At time 2185, Job498 arrives.
+At time 2185, Job515 arrives.
+At time 2187, Job523 arrives.
+At time 2189, Job89 finishes at CPU.
+At time 2191, Job503 arrives.
+At time 2191, Job521 arrives.
+At time 2192, Job526 arrives.
+At time 2193, Job502 arrives.
+At time 2195, Job519 arrives.
+At time 2197, Job512 arrives.
+At time 2198, Job505 arrives.
+At time 2198, Job532 arrives.
+At time 2200, Job506 arrives.
+At time 2200, Job520 arrives.
+At time 2201, Job93 arrives at Disk.
+At time 2204, Job536 arrives.
+At time 2208, Job525 arrives.
+At time 2209, Job517 arrives.
+At time 2210, Job528 arrives.
+At time 2210, Job91 finishes at CPU.
+At time 2210, Job91 exits.
+At time 2212, Job40 finished I/O at Disk 1.
+At time 2213, Job38 arrives.
+At time 2218, Job538 arrives.
+At time 2218, Job545 arrives.
+At time 2220, Job550 arrives.
+At time 2222, Job553 arrives.
+At time 2224, Job518 arrives.
+At time 2225, Job511 arrives.
+At time 2228, Job513 arrives.
+At time 2228, Job554 arrives.
+At time 2230, Job86 finishes at CPU.
+At time 2237, Job559 arrives.
+At time 2242, Job533 arrives.
+At time 2245, Job547 arrives.
+At time 2250, Job530 arrives.
+At time 2250, Job103 finishes at CPU.
+At time 2250, Job103 exits.
+At time 2252, Job86 arrives at Disk.
+At time 2253, Job541 arrives.
+At time 2254, Job529 arrives.
+At time 2256, Job535 arrives.
+At time 2258, Job527 arrives.
+At time 2260, Job548 arrives.
+At time 2260, Job40 arrives.
+At time 2260, Job561 arrives.
+At time 2262, Job537 arrives.
+At time 2262, Job89 arrives at Disk.
+At time 2262, Job558 arrives.
+At time 2268, Job534 arrives.
+At time 2268, Job543 arrives.
+At time 2268, Job546 arrives.
+At time 2270, Job569 arrives.
+At time 2271, Job557 arrives.
+At time 2271, Job100 finishes at CPU.
+At time 2274, Job531 arrives.
+At time 2274, Job575 arrives.
+At time 2275, Job560 arrives.
+At time 2275, Job566 arrives.
+At time 2276, Job552 arrives.
+At time 2278, Job544 arrives.
+At time 2279, Job542 arrives.
+At time 2279, Job551 arrives.
+At time 2281, Job572 arrives.
+At time 2282, Job539 arrives.
+At time 2282, Job540 arrives.
+At time 2282, Job570 arrives.
+At time 2284, Job563 arrives.
+At time 2284, Job88 finishes at CPU.
+At time 2284, Job88 exits.
+At time 2287, Job567 arrives.
+At time 2289, Job578 arrives.
+At time 2290, Job565 arrives.
+At time 2292, Job588 arrives.
+At time 2295, Job562 arrives.
+At time 2296, Job549 arrives.
+At time 2299, Job556 arrives.
+At time 2301, Job594 arrives.
+At time 2303, Job94 finishes at CPU.
+At time 2304, Job583 arrives.
+At time 2305, Job579 arrives.
+At time 2309, Job574 arrives.
+At time 2310, Job585 arrives.
+At time 2312, Job39 finished I/O at Disk 1.
+At time 2312, Job587 arrives.
+At time 2312, Job589 arrives.
+At time 2314, Job592 arrives.
+At time 2315, Job593 arrives.
+At time 2315, Job595 arrives.
+At time 2316, Job555 arrives.
+At time 2318, Job87 finishes at CPU.
+At time 2321, Job590 arrives.
+At time 2323, Job564 arrives.
+At time 2325, Job568 arrives.
+At time 2325, Job582 arrives.
+At time 2325, Job602 arrives.
+At time 2329, Job604 arrives.
+At time 2330, Job576 arrives.
+At time 2330, Job607 arrives.
+At time 2337, Job577 arrives.
+At time 2338, Job105 finishes at CPU.
+At time 2338, Job105 exits.
+At time 2339, Job586 arrives.
+At time 2339, Job617 arrives.
+At time 2341, Job573 arrives.
+At time 2341, Job597 arrives.
+At time 2344, Job609 arrives.
+At time 2346, Job571 arrives.
+At time 2349, Job605 arrives.
+At time 2349, Job608 arrives.
+At time 2352, Job591 arrives.
+At time 2355, Job598 arrives.
+At time 2356, Job580 arrives.
+At time 2356, Job98 finishes at CPU.
+At time 2358, Job601 arrives.
+At time 2362, Job584 arrives.
+At time 2363, Job600 arrives.
+At time 2365, Job100 arrives at Disk.
+At time 2370, Job95 finishes at CPU.
+At time 2373, Job581 arrives.
+At time 2378, Job616 arrives.
+At time 2380, Job596 arrives.
+At time 2381, Job95 arrives at Disk.
+At time 2383, Job39 arrives.
+At time 2383, Job618 arrives.
+At time 2385, Job101 finishes at CPU.
+At time 2386, Job599 arrives.
+At time 2386, Job622 arrives.
+At time 2390, Job620 arrives.
+At time 2392, Job603 arrives.
+At time 2395, Job612 arrives.
+At time 2396, Job35 finished I/O at Disk 1.
+At time 2399, Job621 arrives.
+At time 2400, Job627 arrives.
+At time 2401, Job94 arrives at Disk.
+At time 2402, Job101 arrives at Disk.
+At time 2403, Job96 finishes at CPU.
+At time 2404, Job615 arrives.
+At time 2407, Job619 arrives.
+At time 2408, Job623 arrives.
+At time 2409, Job606 arrives.
+At time 2409, Job614 arrives.
+At time 2411, Job637 arrives.
+At time 2412, Job611 arrives.
+At time 2413, Job630 arrives.
+At time 2414, Job610 arrives.
+At time 2414, Job613 arrives.
+At time 2415, Job106 finishes at CPU.
+At time 2416, Job87 arrives at Disk.
+At time 2416, Job636 arrives.
+At time 2417, Job635 arrives.
+At time 2423, Job624 arrives.
+At time 2423, Job628 arrives.
+At time 2423, Job641 arrives.
+At time 2423, Job653 arrives.
+At time 2426, Job632 arrives.
+At time 2429, Job102 finishes at CPU.
+At time 2431, Job626 arrives.
+At time 2433, Job625 arrives.
+At time 2433, Job629 arrives.
+At time 2434, Job645 arrives.
+At time 2434, Job651 arrives.
+At time 2436, Job98 arrives at Disk.
+At time 2443, Job639 arrives.
+At time 2443, Job640 arrives.
+At time 2444, Job52 finished I/O at Disk 1.
+At time 2445, Job644 arrives.
+At time 2446, Job646 arrives.
+At time 2447, Job638 arrives.
+At time 2451, Job634 arrives.
+At time 2451, Job107 finishes at CPU.
+At time 2453, Job96 arrives at Disk.
+At time 2453, Job655 arrives.
+At time 2455, Job631 arrives.
+At time 2456, Job52 arrives.
+At time 2457, Job35 arrives.
+At time 2458, Job642 arrives.
+At time 2460, Job633 arrives.
+At time 2463, Job23 finishes at CPU.
+At time 2464, Job673 arrives.
+At time 2468, Job652 arrives.
+At time 2468, Job654 arrives.
+At time 2469, Job664 arrives.
+At time 2470, Job649 arrives.
+At time 2472, Job647 arrives.
+At time 2473, Job643 arrives.
+At time 2473, Job669 arrives.
+At time 2474, Job676 arrives.
+At time 2476, Job668 arrives.
+At time 2478, Job13 finished I/O at Disk 1.
+At time 2479, Job648 arrives.
+At time 2479, Job106 arrives at Disk.
+At time 2480, Job658 arrives.
+At time 2480, Job660 arrives.
+At time 2480, Job680 arrives.
+At time 2480, Job110 finishes at CPU.
+At time 2481, Job682 arrives.
+At time 2483, Job675 arrives.
+At time 2484, Job659 arrives.
+At time 2484, Job663 arrives.
+At time 2484, Job681 arrives.
+At time 2486, Job656 arrives.
+At time 2487, Job689 arrives.
+At time 2488, Job107 arrives at Disk.
+At time 2488, Job13 arrives.
+At time 2489, Job650 arrives.
+At time 2491, Job657 arrives.
+At time 2494, Job110 arrives at Disk.
+At time 2497, Job666 arrives.
+At time 2499, Job99 finishes at CPU.
+At time 2501, Job102 arrives at Disk.
+At time 2502, Job662 arrives.
+At time 2502, Job695 arrives.
+At time 2504, Job684 arrives.
+At time 2505, Job697 arrives.
+At time 2508, Job700 arrives.
+At time 2509, Job661 arrives.
+At time 2511, Job670 arrives.
+At time 2512, Job692 arrives.
+At time 2513, Job699 arrives.
+At time 2514, Job685 arrives.
+At time 2514, Job108 finishes at CPU.
+At time 2515, Job665 arrives.
+At time 2516, Job690 arrives.
+At time 2518, Job55 finished I/O at Disk 1.
+At time 2519, Job686 arrives.
+At time 2520, Job674 arrives.
+At time 2521, Job678 arrives.
+At time 2524, Job704 arrives.
+At time 2525, Job667 arrives.
+At time 2525, Job672 arrives.
+At time 2526, Job705 arrives.
+At time 2528, Job706 arrives.
+At time 2528, Job707 arrives.
+At time 2529, Job715 arrives.
+At time 2531, Job683 arrives.
+At time 2531, Job109 finishes at CPU.
+At time 2533, Job716 arrives.
+At time 2537, Job693 arrives.
+At time 2538, Job671 arrives.
+At time 2538, Job722 arrives.
+At time 2540, Job677 arrives.
+At time 2540, Job721 arrives.
+At time 2543, Job679 arrives.
+At time 2543, Job694 arrives.
+At time 2544, Job710 arrives.
+At time 2545, Job698 arrives.
+At time 2545, Job116 finishes at CPU.
+At time 2545, Job116 exits.
+At time 2547, Job687 arrives.
+At time 2547, Job708 arrives.
+At time 2550, Job23 arrives at Disk.
+At time 2550, Job727 arrives.
+At time 2550, Job732 arrives.
+At time 2552, Job688 arrives.
+At time 2555, Job737 arrives.
+At time 2556, Job702 arrives.
+At time 2559, Job691 arrives.
+At time 2559, Job730 arrives.
+At time 2560, Job55 arrives.
+At time 2565, Job713 arrives.
+At time 2567, Job104 finishes at CPU.
+At time 2567, Job104 exits.
+At time 2569, Job99 arrives at Disk.
+At time 2569, Job738 arrives.
+At time 2570, Job712 arrives.
+At time 2570, Job746 arrives.
+At time 2572, Job696 arrives.
+At time 2572, Job709 arrives.
+At time 2577, Job108 arrives at Disk.
+At time 2579, Job703 arrives.
+At time 2579, Job750 arrives.
+At time 2582, Job723 arrives.
+At time 2583, Job113 finishes at CPU.
+At time 2583, Job113 exits.
+At time 2585, Job701 arrives.
+At time 2587, Job717 arrives.
+At time 2590, Job719 arrives.
+At time 2594, Job714 arrives.
+At time 2594, Job726 arrives.
+At time 2598, Job735 arrives.
+At time 2599, Job725 arrives.
+At time 2600, Job718 arrives.
+At time 2600, Job120 finishes at CPU.
+At time 2604, Job747 arrives.
+At time 2604, Job748 arrives.
+At time 2605, Job720 arrives.
+At time 2605, Job736 arrives.
+At time 2606, Job711 arrives.
+At time 2606, Job44 finished I/O at Disk 1.
+At time 2610, Job749 arrives.
+At time 2612, Job733 arrives.
+At time 2612, Job754 arrives.
+At time 2613, Job752 arrives.
+At time 2614, Job743 arrives.
+At time 2615, Job109 arrives at Disk.
+At time 2615, Job121 finishes at CPU.
+At time 2619, Job741 arrives.
+At time 2622, Job758 arrives.
+At time 2623, Job724 arrives.
+At time 2623, Job745 arrives.
+At time 2624, Job761 arrives.
+At time 2625, Job757 arrives.
+At time 2627, Job739 arrives.
+At time 2628, Job731 arrives.
+At time 2628, Job774 arrives.
+At time 2629, Job729 arrives.
+At time 2630, Job742 arrives.
+At time 2631, Job728 arrives.
+At time 2635, Job765 arrives.
+At time 2636, Job753 arrives.
+At time 2636, Job770 arrives.
+At time 2636, Job117 finishes at CPU.
+At time 2638, Job769 arrives.
+At time 2639, Job734 arrives.
+At time 2641, Job777 arrives.
+At time 2641, Job781 arrives.
+At time 2641, Job784 arrives.
+At time 2641, Job786 arrives.
+At time 2642, Job783 arrives.
+At time 2643, Job744 arrives.
+At time 2644, Job751 arrives.
+At time 2644, Job760 arrives.
+At time 2644, Job772 arrives.
+At time 2644, Job787 arrives.
+At time 2645, Job740 arrives.
+At time 2645, Job782 arrives.
+At time 2648, Job771 arrives.
+At time 2648, Job111 finishes at CPU.
+At time 2649, Job780 arrives.
+At time 2657, Job768 arrives.
+At time 2660, Job791 arrives.
+At time 2661, Job120 arrives at Disk.
+At time 2665, Job788 arrives.
+At time 2665, Job111 arrives at Disk.
+At time 2667, Job112 finishes at CPU.
+At time 2667, Job807 arrives.
+At time 2671, Job755 arrives.
+At time 2671, Job762 arrives.
+At time 2673, Job759 arrives.
+At time 2673, Job54 finished I/O at Disk 1.
+At time 2674, Job803 arrives.
+At time 2675, Job756 arrives.
+At time 2676, Job766 arrives.
+At time 2680, Job799 arrives.
+At time 2681, Job764 arrives.
+At time 2681, Job44 arrives.
+At time 2681, Job127 finishes at CPU.
+At time 2682, Job112 arrives at Disk.
+At time 2683, Job121 arrives at Disk.
+At time 2683, Job801 arrives.
+At time 2683, Job810 arrives.
+At time 2686, Job789 arrives.
+At time 2687, Job763 arrives.
+At time 2689, Job776 arrives.
+At time 2691, Job127 arrives at Disk.
+At time 2697, Job805 arrives.
+At time 2698, Job115 finishes at CPU.
+At time 2699, Job794 arrives.
+At time 2702, Job767 arrives.
+At time 2703, Job820 arrives.
+At time 2704, Job773 arrives.
+At time 2704, Job806 arrives.
+At time 2704, Job47 finished I/O at Disk 1.
+At time 2707, Job778 arrives.
+At time 2707, Job800 arrives.
+At time 2708, Job790 arrives.
+At time 2708, Job117 arrives at Disk.
+At time 2708, Job795 arrives.
+At time 2708, Job802 arrives.
+At time 2710, Job793 arrives.
+At time 2712, Job775 arrives.
+At time 2712, Job814 arrives.
+At time 2716, Job114 finishes at CPU.
+At time 2716, Job114 exits.
+At time 2717, Job804 arrives.
+At time 2719, Job792 arrives.
+At time 2721, Job779 arrives.
+At time 2722, Job796 arrives.
+At time 2722, Job823 arrives.
+At time 2723, Job811 arrives.
+At time 2723, Job836 arrives.
+At time 2726, Job797 arrives.
+At time 2726, Job828 arrives.
+At time 2728, Job785 arrives.
+At time 2730, Job821 arrives.
+At time 2731, Job826 arrives.
+At time 2731, Job839 arrives.
+At time 2732, Job809 arrives.
+At time 2733, Job837 arrives.
+At time 2734, Job798 arrives.
+At time 2734, Job122 finishes at CPU.
+At time 2744, Job818 arrives.
+At time 2744, Job47 arrives.
+At time 2744, Job845 arrives.
+At time 2745, Job808 arrives.
+At time 2745, Job813 arrives.
+At time 2746, Job812 arrives.
+At time 2751, Job832 arrives.
+At time 2752, Job848 arrives.
+At time 2754, Job846 arrives.
+At time 2756, Job822 arrives.
+At time 2756, Job124 finishes at CPU.
+At time 2761, Job824 arrives.
+At time 2765, Job54 arrives.
+At time 2765, Job825 arrives.
+At time 2766, Job819 arrives.
+At time 2766, Job843 arrives.
+At time 2768, Job855 arrives.
+At time 2769, Job829 arrives.
+At time 2771, Job854 arrives.
+At time 2771, Job858 arrives.
+At time 2771, Job119 finishes at CPU.
+At time 2771, Job119 exits.
+At time 2775, Job815 arrives.
+At time 2775, Job817 arrives.
+At time 2776, Job816 arrives.
+At time 2777, Job842 arrives.
+At time 2778, Job866 arrives.
+At time 2779, Job124 arrives at Disk.
+At time 2780, Job861 arrives.
+At time 2780, Job870 arrives.
+At time 2781, Job871 arrives.
+At time 2782, Job856 arrives.
+At time 2783, Job115 arrives at Disk.
+At time 2783, Job827 arrives.
+At time 2783, Job833 arrives.
+At time 2783, Job849 arrives.
+At time 2784, Job867 arrives.
+At time 2785, Job847 arrives.
+At time 2785, Job874 arrives.
+At time 2786, Job838 arrives.
+At time 2789, Job118 finishes at CPU.
+At time 2791, Job830 arrives.
+At time 2792, Job841 arrives.
+At time 2793, Job122 arrives at Disk.
+At time 2794, Job851 arrives.
+At time 2794, Job63 finished I/O at Disk 1.
+At time 2794, Job880 arrives.
+At time 2795, Job864 arrives.
+At time 2797, Job862 arrives.
+At time 2798, Job831 arrives.
+At time 2801, Job834 arrives.
+At time 2802, Job835 arrives.
+At time 2808, Job840 arrives.
+At time 2808, Job129 finishes at CPU.
+At time 2811, Job852 arrives.
+At time 2812, Job844 arrives.
+At time 2812, Job860 arrives.
+At time 2812, Job877 arrives.
+At time 2814, Job850 arrives.
+At time 2814, Job863 arrives.
+At time 2814, Job118 arrives at Disk.
+At time 2816, Job898 arrives.
+At time 2817, Job876 arrives.
+At time 2817, Job879 arrives.
+At time 2821, Job857 arrives.
+At time 2821, Job875 arrives.
+At time 2822, Job873 arrives.
+At time 2822, Job897 arrives.
+At time 2823, Job868 arrives.
+At time 2823, Job869 arrives.
+At time 2826, Job853 arrives.
+At time 2828, Job859 arrives.
+At time 2828, Job131 finishes at CPU.
+At time 2829, Job865 arrives.
+At time 2832, Job889 arrives.
+At time 2832, Job905 arrives.
+At time 2834, Job888 arrives.
+At time 2838, Job913 arrives.
+At time 2840, Job885 arrives.
+At time 2840, Job134 finishes at CPU.
+At time 2840, Job134 exits.
+At time 2845, Job894 arrives.
+At time 2846, Job881 arrives.
+At time 2850, Job129 arrives at Disk.
+At time 2851, Job882 arrives.
+At time 2852, Job919 arrives.
+At time 2855, Job125 finishes at CPU.
+At time 2855, Job125 exits.
+At time 2859, Job63 arrives.
+At time 2860, Job890 arrives.
+At time 2862, Job872 arrives.
+At time 2862, Job902 arrives.
+At time 2864, Job883 arrives.
+At time 2865, Job49 finished I/O at Disk 1.
+At time 2867, Job926 arrives.
+At time 2868, Job907 arrives.
+At time 2869, Job878 arrives.
+At time 2869, Job912 arrives.
+At time 2869, Job914 arrives.
+At time 2873, Job915 arrives.
+At time 2874, Job887 arrives.
+At time 2874, Job895 arrives.
+At time 2875, Job908 arrives.
+At time 2876, Job18 finishes at CPU.
+At time 2877, Job900 arrives.
+At time 2878, Job891 arrives.
+At time 2878, Job920 arrives.
+At time 2878, Job933 arrives.
+At time 2879, Job929 arrives.
+At time 2881, Job884 arrives.
+At time 2881, Job893 arrives.
+At time 2881, Job921 arrives.
+At time 2882, Job886 arrives.
+At time 2885, Job935 arrives.
+At time 2887, Job892 arrives.
+At time 2888, Job899 arrives.
+At time 2888, Job18 arrives at Disk.
+At time 2889, Job943 arrives.
+At time 2891, Job140 finishes at CPU.
+At time 2891, Job948 arrives.
+At time 2892, Job904 arrives.
+At time 2894, Job916 arrives.
+At time 2894, Job932 arrives.
+At time 2894, Job949 arrives.
+At time 2895, Job917 arrives.
+At time 2898, Job896 arrives.
+At time 2899, Job909 arrives.
+At time 2899, Job930 arrives.
+At time 2899, Job942 arrives.
+At time 2900, Job923 arrives.
+At time 2901, Job937 arrives.
+At time 2901, Job139 finishes at CPU.
+At time 2904, Job936 arrives.
+At time 2907, Job901 arrives.
+At time 2907, Job950 arrives.
+At time 2909, Job952 arrives.
+At time 2910, Job911 arrives.
+At time 2912, Job903 arrives.
+At time 2914, Job910 arrives.
+At time 2914, Job939 arrives.
+At time 2914, Job955 arrives.
+At time 2916, Job906 arrives.
+At time 2916, Job922 arrives.
+At time 2916, Job128 finishes at CPU.
+At time 2919, Job924 arrives.
+At time 2923, Job918 arrives.
+At time 2923, Job959 arrives.
+At time 2924, Job131 arrives at Disk.
+At time 2924, Job947 arrives.
+At time 2927, Job931 arrives.
+At time 2927, Job951 arrives.
+At time 2928, Job928 arrives.
+At time 2928, Job953 arrives.
+At time 2929, Job967 arrives.
+At time 2930, Job971 arrives.
+At time 2932, Job972 arrives.
+At time 2932, Job132 finishes at CPU.
+At time 2935, Job934 arrives.
+At time 2939, Job927 arrives.
+At time 2939, Job973 arrives.
+At time 2941, Job966 arrives.
+At time 2942, Job985 arrives.
+At time 2943, Job941 arrives.
+At time 2943, Job957 arrives.
+At time 2943, Job970 arrives.
+At time 2945, Job978 arrives.
+At time 2945, Job123 finishes at CPU.
+At time 2947, Job925 arrives.
+At time 2948, Job976 arrives.
+At time 2950, Job940 arrives.
+At time 2950, Job968 arrives.
+At time 2952, Job990 arrives.
+At time 2955, Job49 arrives.
+At time 2955, Job938 arrives.
+At time 2956, Job974 arrives.
+At time 2958, Job128 arrives at Disk.
+At time 2959, Job983 arrives.
+At time 2959, Job989 arrives.
+At time 2962, Job975 arrives.
+At time 2963, Job130 finishes at CPU.
+At time 2964, Job945 arrives.
+At time 2967, Job984 arrives.
+At time 2968, Job944 arrives.
+At time 2969, Job965 arrives.
+At time 2970, Job988 arrives.
+At time 2972, Job958 arrives.
+At time 2973, Job960 arrives.
+At time 2973, Job991 arrives.
+At time 2974, Job946 arrives.
+At time 2976, Job963 arrives.
+At time 2980, Job1004 arrives.
+At time 2981, Job132 arrives at Disk.
+At time 2982, Job57 finished I/O at Disk 1.
+At time 2983, Job126 finishes at CPU.
+At time 2983, Job1009 arrives.
+At time 2984, Job977 arrives.
+At time 2987, Job996 arrives.
+At time 2988, Job954 arrives.
+At time 2989, Job140 arrives at Disk.
+At time 2990, Job994 arrives.
+At time 2991, Job962 arrives.
+At time 2991, Job969 arrives.
+At time 2991, Job1018 arrives.
+At time 2992, Job956 arrives.
+At time 2993, Job961 arrives.
+At time 2993, Job999 arrives.
+At time 2995, Job987 arrives.
+At time 2996, Job964 arrives.
+At time 2996, Job126 arrives at Disk.
+At time 2998, Job1000 arrives.
+At time 2999, Job133 finishes at CPU.
+At time 2999, Job133 exits.
+At time 3001, Job139 arrives at Disk.
+At time 3001, Job1001 arrives.
+At time 3001, Job1003 arrives.
+At time 3003, Job57 arrives.
+At time 3010, Job993 arrives.
+At time 3010, Job997 arrives.
+At time 3010, Job1022 arrives.
+At time 3012, Job1033 arrives.
+At time 3013, Job1007 arrives.
+At time 3013, Job1024 arrives.
+At time 3014, Job979 arrives.
+At time 3016, Job982 arrives.
+At time 3017, Job1023 arrives.
+At time 3017, Job136 finishes at CPU.
+At time 3018, Job1002 arrives.
+At time 3020, Job1013 arrives.
+At time 3020, Job1036 arrives.
+At time 3021, Job65 finished I/O at Disk 1.
+At time 3021, Job1025 arrives.
+At time 3024, Job980 arrives.
+At time 3026, Job1021 arrives.
+At time 3027, Job981 arrives.
+At time 3027, Job995 arrives.
+At time 3028, Job986 arrives.
+At time 3029, Job1027 arrives.
+At time 3030, Job1006 arrives.
+At time 3031, Job992 arrives.
+At time 3032, Job1011 arrives.
+At time 3034, Job1005 arrives.
+At time 3034, Job1028 arrives.
+At time 3036, Job1032 arrives.
+At time 3036, Job1040 arrives.
+At time 3037, Job998 arrives.
+At time 3037, Job145 finishes at CPU.
+At time 3040, Job1034 arrives.
+At time 3040, Job1053 arrives.
+At time 3041, Job1008 arrives.
+At time 3041, Job1047 arrives.
+At time 3045, Job123 arrives at Disk.
+At time 3045, Job1012 arrives.
+At time 3045, Job1056 arrives.
+At time 3046, Job1026 arrives.
+At time 3048, Job1015 arrives.
+At time 3048, Job1029 arrives.
+At time 3049, Job1060 arrives.
+At time 3052, Job130 arrives at Disk.
+At time 3052, Job1043 arrives.
+At time 3052, Job1062 arrives.
+At time 3052, Job137 finishes at CPU.
+At time 3053, Job1010 arrives.
+At time 3053, Job1035 arrives.
+At time 3054, Job1046 arrives.
+At time 3056, Job1014 arrives.
+At time 3056, Job1064 arrives.
+At time 3060, Job1070 arrives.
+At time 3061, Job1016 arrives.
+At time 3062, Job1048 arrives.
+At time 3063, Job1065 arrives.
+At time 3065, Job150 finishes at CPU.
+At time 3068, Job1020 arrives.
+At time 3068, Job145 arrives at Disk.
+At time 3069, Job1044 arrives.
+At time 3070, Job1074 arrives.
+At time 3071, Job1017 arrives.
+At time 3072, Job1037 arrives.
+At time 3072, Job1063 arrives.
+At time 3072, Job1079 arrives.
+At time 3073, Job1045 arrives.
+At time 3074, Job137 arrives at Disk.
+At time 3075, Job1049 arrives.
+At time 3078, Job1019 arrives.
+At time 3078, Job1039 arrives.
+At time 3078, Job142 finishes at CPU.
+At time 3079, Job1038 arrives.
+At time 3082, Job1041 arrives.
+At time 3086, Job1031 arrives.
+At time 3087, Job1055 arrives.
+At time 3090, Job1075 arrives.
+At time 3091, Job1094 arrives.
+At time 3092, Job1030 arrives.
+At time 3093, Job1050 arrives.
+At time 3093, Job1054 arrives.
+At time 3094, Job1057 arrives.
+At time 3094, Job1089 arrives.
+At time 3095, Job148 finishes at CPU.
+At time 3096, Job136 arrives at Disk.
+At time 3096, Job1068 arrives.
+At time 3098, Job60 finished I/O at Disk 1.
+At time 3100, Job1051 arrives.
+At time 3100, Job142 arrives at Disk.
+At time 3101, Job1059 arrives.
+At time 3101, Job1066 arrives.
+At time 3104, Job1052 arrives.
+At time 3105, Job1077 arrives.
+At time 3107, Job1081 arrives.
+At time 3109, Job1042 arrives.
+At time 3111, Job1083 arrives.
+At time 3112, Job1069 arrives.
+At time 3115, Job138 finishes at CPU.
+At time 3118, Job1061 arrives.
+At time 3118, Job1076 arrives.
+At time 3119, Job65 arrives.
+At time 3119, Job1058 arrives.
+At time 3119, Job1113 arrives.
+At time 3120, Job1082 arrives.
+At time 3120, Job1103 arrives.
+At time 3121, Job66 finished I/O at Disk 1.
+At time 3126, Job1097 arrives.
+At time 3128, Job1067 arrives.
+At time 3128, Job1100 arrives.
+At time 3129, Job1071 arrives.
+At time 3129, Job1102 arrives.
+At time 3129, Job1105 arrives.
+At time 3130, Job1072 arrives.
+At time 3130, Job1078 arrives.
+At time 3130, Job1090 arrives.
+At time 3132, Job1086 arrives.
+At time 3132, Job135 finishes at CPU.
+At time 3133, Job1119 arrives.
+At time 3135, Job1099 arrives.
+At time 3136, Job1073 arrives.
+At time 3136, Job150 arrives at Disk.
+At time 3136, Job1122 arrives.
+At time 3137, Job1088 arrives.
+At time 3140, Job1107 arrives.
+At time 3142, Job1098 arrives.
+At time 3142, Job138 arrives at Disk.
+At time 3142, Job66 arrives.
+At time 3144, Job1108 arrives.
+At time 3144, Job1123 arrives.
+At time 3144, Job141 finishes at CPU.
+At time 3144, Job141 exits.
+At time 3147, Job1114 arrives.
+At time 3148, Job1125 arrives.
+At time 3148, Job1128 arrives.
+At time 3150, Job1111 arrives.
+At time 3152, Job1110 arrives.
+At time 3152, Job1131 arrives.
+At time 3152, Job1138 arrives.
+At time 3153, Job1096 arrives.
+At time 3155, Job1092 arrives.
+At time 3156, Job1080 arrives.
+At time 3156, Job1084 arrives.
+At time 3156, Job1134 arrives.
+At time 3158, Job1112 arrives.
+At time 3159, Job1121 arrives.
+At time 3159, Job1133 arrives.
+At time 3160, Job1101 arrives.
+At time 3161, Job1118 arrives.
+At time 3162, Job1106 arrives.
+At time 3162, Job1147 arrives.
+At time 3163, Job1115 arrives.
+At time 3164, Job1109 arrives.
+At time 3165, Job148 arrives at Disk.
+At time 3166, Job1085 arrives.
+At time 3166, Job143 finishes at CPU.
+At time 3166, Job1152 arrives.
+At time 3169, Job1087 arrives.
+At time 3170, Job1091 arrives.
+At time 3170, Job1127 arrives.
+At time 3172, Job1093 arrives.
+At time 3174, Job58 finished I/O at Disk 1.
+At time 3176, Job1158 arrives.
+At time 3177, Job1095 arrives.
+At time 3179, Job149 finishes at CPU.
+At time 3179, Job149 exits.
+At time 3181, Job1137 arrives.
+At time 3184, Job1116 arrives.
+At time 3187, Job1104 arrives.
+At time 3187, Job60 arrives.
+At time 3189, Job1117 arrives.
+At time 3189, Job1155 arrives.
+At time 3191, Job1124 arrives.
+At time 3191, Job1150 arrives.
+At time 3194, Job151 finishes at CPU.
+At time 3197, Job1141 arrives.
+At time 3197, Job1172 arrives.
+At time 3198, Job1135 arrives.
+At time 3200, Job1120 arrives.
+At time 3201, Job135 arrives at Disk.
+At time 3202, Job1126 arrives.
+At time 3202, Job1143 arrives.
+At time 3203, Job1130 arrives.
+At time 3203, Job1166 arrives.
+At time 3203, Job1167 arrives.
+At time 3204, Job1161 arrives.
+At time 3205, Job1160 arrives.
+At time 3205, Job1175 arrives.
+At time 3208, Job1159 arrives.
+At time 3209, Job147 finishes at CPU.
+At time 3210, Job1142 arrives.
+At time 3210, Job1176 arrives.
+At time 3213, Job1132 arrives.
+At time 3213, Job1149 arrives.
+At time 3214, Job1154 arrives.
+At time 3214, Job151 arrives at Disk.
+At time 3214, Job72 finished I/O at Disk 1.
+At time 3216, Job1179 arrives.
+At time 3217, Job1145 arrives.
+At time 3219, Job143 arrives at Disk.
+At time 3224, Job1144 arrives.
+At time 3224, Job1148 arrives.
+At time 3224, Job1151 arrives.
+At time 3225, Job1136 arrives.
+At time 3225, Job1187 arrives.
+At time 3225, Job1197 arrives.
+At time 3226, Job1146 arrives.
+At time 3226, Job1156 arrives.
+At time 3226, Job1163 arrives.
+At time 3226, Job1185 arrives.
+At time 3227, Job144 finishes at CPU.
+At time 3228, Job1139 arrives.
+At time 3229, Job1129 arrives.
+At time 3229, Job1170 arrives.
+At time 3231, Job1198 arrives.
+At time 3231, Job1199 arrives.
+At time 3232, Job1191 arrives.
+At time 3233, Job1140 arrives.
+At time 3233, Job1157 arrives.
+At time 3233, Job1173 arrives.
+At time 3233, Job1182 arrives.
+At time 3234, Job1178 arrives.
+At time 3235, Job1162 arrives.
+At time 3238, Job1209 arrives.
+At time 3239, Job1184 arrives.
+At time 3239, Job1201 arrives.
+At time 3240, Job1207 arrives.
+At time 3242, Job1212 arrives.
+At time 3243, Job58 arrives.
+At time 3244, Job1188 arrives.
+At time 3245, Job155 finishes at CPU.
+At time 3245, Job155 exits.
+At time 3245, Job1214 arrives.
+At time 3250, Job1171 arrives.
+At time 3250, Job1205 arrives.
+At time 3250, Job1218 arrives.
+At time 3251, Job1168 arrives.
+At time 3254, Job1223 arrives.
+At time 3255, Job1153 arrives.
+At time 3255, Job1165 arrives.
+At time 3256, Job159 finishes at CPU.
+At time 3257, Job1202 arrives.
+At time 3258, Job1216 arrives.
+At time 3259, Job1174 arrives.
+At time 3259, Job1183 arrives.
+At time 3259, Job1194 arrives.
+At time 3259, Job1224 arrives.
+At time 3260, Job147 arrives at Disk.
+At time 3260, Job1203 arrives.
+At time 3260, Job1208 arrives.
+At time 3261, Job1206 arrives.
+At time 3262, Job1164 arrives.
+At time 3262, Job1181 arrives.
+At time 3264, Job1169 arrives.
+At time 3264, Job1228 arrives.
+At time 3266, Job1195 arrives.
+At time 3266, Job1230 arrives.
+At time 3267, Job1192 arrives.
+At time 3267, Job1232 arrives.
+At time 3271, Job9 finishes at CPU.
+At time 3273, Job1220 arrives.
+At time 3274, Job1204 arrives.
+At time 3274, Job1231 arrives.
+At time 3275, Job1238 arrives.
+At time 3276, Job159 arrives at Disk.
+At time 3278, Job1189 arrives.
+At time 3280, Job1234 arrives.
+At time 3280, Job1248 arrives.
+At time 3281, Job1222 arrives.
+At time 3282, Job1249 arrives.
+At time 3284, Job1177 arrives.
+At time 3284, Job78 finished I/O at Disk 1.
+At time 3286, Job1236 arrives.
+At time 3287, Job1186 arrives.
+At time 3287, Job1247 arrives.
+At time 3289, Job1200 arrives.
+At time 3291, Job1190 arrives.
+At time 3291, Job1235 arrives.
+At time 3291, Job152 finishes at CPU.
+At time 3292, Job72 arrives.
+At time 3293, Job1180 arrives.
+At time 3293, Job1196 arrives.
+At time 3293, Job1246 arrives.
+At time 3294, Job1219 arrives.
+At time 3295, Job144 arrives at Disk.
+At time 3295, Job1253 arrives.
+At time 3296, Job1225 arrives.
+At time 3297, Job1211 arrives.
+At time 3298, Job1239 arrives.
+At time 3298, Job1266 arrives.
+At time 3299, Job1193 arrives.
+At time 3299, Job1210 arrives.
+At time 3300, Job1213 arrives.
+At time 3302, Job1221 arrives.
+At time 3304, Job1229 arrives.
+At time 3304, Job1260 arrives.
+At time 3307, Job1226 arrives.
+At time 3307, Job146 finishes at CPU.
+At time 3308, Job1233 arrives.
+At time 3309, Job1244 arrives.
+At time 3310, Job1241 arrives.
+At time 3310, Job1263 arrives.
+At time 3312, Job1250 arrives.
+At time 3314, Job1265 arrives.
+At time 3315, Job9 arrives at Disk.
+At time 3319, Job1283 arrives.
+At time 3319, Job158 finishes at CPU.
+At time 3320, Job1280 arrives.
+At time 3321, Job1227 arrives.
+At time 3321, Job1281 arrives.
+At time 3324, Job1215 arrives.
+At time 3326, Job1217 arrives.
+At time 3329, Job1262 arrives.
+At time 3332, Job1287 arrives.
+At time 3333, Job1237 arrives.
+At time 3334, Job1269 arrives.
+At time 3336, Job1245 arrives.
+At time 3336, Job168 finishes at CPU.
+At time 3337, Job1291 arrives.
+At time 3339, Job1275 arrives.
+At time 3340, Job1271 arrives.
+At time 3340, Job1284 arrives.
+At time 3341, Job1243 arrives.
+At time 3341, Job1273 arrives.
+At time 3342, Job1255 arrives.
+At time 3342, Job1300 arrives.
+At time 3346, Job1252 arrives.
+At time 3348, Job1285 arrives.
+At time 3349, Job1251 arrives.
+At time 3349, Job1302 arrives.
+At time 3350, Job1242 arrives.
+At time 3351, Job1277 arrives.
+At time 3351, Job1299 arrives.
+At time 3351, Job153 finishes at CPU.
+At time 3353, Job1257 arrives.
+At time 3353, Job146 arrives at Disk.
+At time 3354, Job1240 arrives.
+At time 3354, Job1261 arrives.
+At time 3356, Job83 finished I/O at Disk 1.
+At time 3360, Job1254 arrives.
+At time 3361, Job152 arrives at Disk.
+At time 3361, Job1311 arrives.
+At time 3366, Job1270 arrives.
+At time 3366, Job1272 arrives.
+At time 3367, Job172 finishes at CPU.
+At time 3368, Job1259 arrives.
+At time 3369, Job1288 arrives.
+At time 3369, Job158 arrives at Disk.
+At time 3369, Job1321 arrives.
+At time 3370, Job1258 arrives.
+At time 3372, Job1256 arrives.
+At time 3372, Job1268 arrives.
+At time 3372, Job1292 arrives.
+At time 3375, Job1298 arrives.
+At time 3375, Job1314 arrives.
+At time 3376, Job1297 arrives.
+At time 3378, Job78 arrives.
+At time 3378, Job83 arrives.
+At time 3379, Job1320 arrives.
+At time 3380, Job1318 arrives.
+At time 3380, Job157 finishes at CPU.
+At time 3380, Job157 exits.
+At time 3381, Job1276 arrives.
+At time 3381, Job1304 arrives.
+At time 3381, Job1309 arrives.
+At time 3383, Job1264 arrives.
+At time 3383, Job1267 arrives.
+At time 3383, Job1286 arrives.
+At time 3384, Job1290 arrives.
+At time 3387, Job1274 arrives.
+At time 3387, Job1307 arrives.
+At time 3388, Job1337 arrives.
+At time 3389, Job1282 arrives.
+At time 3389, Job1329 arrives.
+At time 3390, Job1279 arrives.
+At time 3393, Job1294 arrives.
+At time 3393, Job168 arrives at Disk.
+At time 3393, Job172 arrives at Disk.
+At time 3394, Job1278 arrives.
+At time 3394, Job1296 arrives.
+At time 3394, Job1316 arrives.
+At time 3394, Job1317 arrives.
+At time 3395, Job1289 arrives.
+At time 3395, Job1306 arrives.
+At time 3396, Job1313 arrives.
+At time 3397, Job69 finished I/O at Disk 1.
+At time 3398, Job1326 arrives.
+At time 3400, Job1334 arrives.
+At time 3401, Job1312 arrives.
+At time 3401, Job162 finishes at CPU.
+At time 3405, Job1338 arrives.
+At time 3405, Job1343 arrives.
+At time 3406, Job1295 arrives.
+At time 3407, Job1325 arrives.
+At time 3407, Job1348 arrives.
+At time 3409, Job1301 arrives.
+At time 3410, Job1308 arrives.
+At time 3410, Job1354 arrives.
+At time 3411, Job1327 arrives.
+At time 3412, Job1315 arrives.
+At time 3412, Job1360 arrives.
+At time 3415, Job1323 arrives.
+At time 3416, Job154 finishes at CPU.
+At time 3417, Job1293 arrives.
+At time 3417, Job1330 arrives.
+At time 3420, Job153 arrives at Disk.
+At time 3420, Job1347 arrives.
+At time 3420, Job1366 arrives.
+At time 3423, Job1350 arrives.
+At time 3425, Job1333 arrives.
+At time 3429, Job1349 arrives.
+At time 3430, Job162 arrives at Disk.
+At time 3431, Job1340 arrives.
+At time 3432, Job1303 arrives.
+At time 3432, Job165 finishes at CPU.
+At time 3433, Job1331 arrives.
+At time 3434, Job1363 arrives.
+At time 3436, Job1305 arrives.
+At time 3436, Job1319 arrives.
+At time 3436, Job1339 arrives.
+At time 3436, Job1373 arrives.
+At time 3438, Job1344 arrives.
+At time 3439, Job1358 arrives.
+At time 3439, Job1378 arrives.
+At time 3440, Job1355 arrives.
+At time 3441, Job1368 arrives.
+At time 3442, Job1310 arrives.
+At time 3442, Job1352 arrives.
+At time 3442, Job1359 arrives.
+At time 3442, Job1365 arrives.
+At time 3443, Job1341 arrives.
+At time 3443, Job1369 arrives.
+At time 3443, Job166 finishes at CPU.
+At time 3444, Job1328 arrives.
+At time 3444, Job1382 arrives.
+At time 3444, Job1385 arrives.
+At time 3449, Job1332 arrives.
+At time 3451, Job81 finished I/O at Disk 1.
+At time 3454, Job1324 arrives.
+At time 3455, Job1374 arrives.
+At time 3456, Job1383 arrives.
+At time 3458, Job1372 arrives.
+At time 3458, Job156 finishes at CPU.
+At time 3459, Job1322 arrives.
+At time 3461, Job1335 arrives.
+At time 3466, Job1336 arrives.
+At time 3467, Job1345 arrives.
+At time 3467, Job1380 arrives.
+At time 3468, Job1371 arrives.
+At time 3470, Job1379 arrives.
+At time 3470, Job1396 arrives.
+At time 3472, Job1353 arrives.
+At time 3472, Job69 arrives.
+At time 3473, Job1390 arrives.
+At time 3477, Job160 finishes at CPU.
+At time 3479, Job1400 arrives.
+At time 3480, Job1346 arrives.
+At time 3481, Job1342 arrives.
+At time 3481, Job1404 arrives.
+At time 3482, Job1362 arrives.
+At time 3482, Job1399 arrives.
+At time 3482, Job1417 arrives.
+At time 3483, Job1356 arrives.
+At time 3483, Job1398 arrives.
+At time 3483, Job1415 arrives.
+At time 3484, Job1351 arrives.
+At time 3484, Job154 arrives at Disk.
+At time 3484, Job1376 arrives.
+At time 3484, Job1389 arrives.
+At time 3486, Job1357 arrives.
+At time 3486, Job1364 arrives.
+At time 3486, Job1370 arrives.
+At time 3486, Job1397 arrives.
+At time 3489, Job1418 arrives.
+At time 3490, Job1375 arrives.
+At time 3491, Job1367 arrives.
+At time 3491, Job1410 arrives.
+At time 3491, Job1414 arrives.
+At time 3492, Job1393 arrives.
+At time 3492, Job1407 arrives.
+At time 3492, Job175 finishes at CPU.
+At time 3497, Job1361 arrives.
+At time 3497, Job1387 arrives.
+At time 3497, Job81 arrives.
+At time 3498, Job1412 arrives.
+At time 3498, Job1421 arrives.
+At time 3499, Job1384 arrives.
+At time 3000, SIMULATION ENDED.
